@@ -29,6 +29,7 @@ makefile
 .xdchelp
 # Uniflash session files
 *.uniflashsession
+.tempFiles/
 
 # End of https://www.gitignore.io/api/codecomposerstudio
 

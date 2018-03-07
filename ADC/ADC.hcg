@@ -3,7 +3,7 @@
   <DEVICE>
     <family>TMS570LS12x</family>
     <device>TMS570LS1224PGE</device>
-    <dilfile>SCI.dil</dilfile>
+    <dilfile>ADC.dil</dilfile>
     <tools>ti</tools>
   </DEVICE>
   <VERSION>
@@ -248,7 +248,9 @@
       <HDRADC>
         <NAME>adc.h</NAME>
       </HDRADC>
-      <SRCADC/>
+      <SRCADC>
+        <NAME>adc.c</NAME>
+      </SRCADC>
       <HET1ASMHDR>
         <NAME/>
       </HET1ASMHDR>
@@ -483,7 +485,7 @@
         <PATH>include\adc.h</PATH>
       </HDRADC>
       <SRCADC>
-        <PATH/>
+        <PATH>source\adc.c</PATH>
       </SRCADC>
     </FILENAMES>
   </ADC>
